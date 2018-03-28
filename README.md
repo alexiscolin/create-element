@@ -2,15 +2,15 @@
 🚧 This function create DOM elements with styles, attributes, content and let you insert them in the DOM through multiple options.
 
 ## SYNTAX
-**``` utils.createElement([option, insert]); ```**
+**``` createElement([option, insert]); ```**
 
 ## USE
 
 ```javascript
 
-import { utils } from 'utils';
+import createElement from 'create-element';
 
-let el = utils.createElement({
+let el = createElement({
     type: 'a',
     link: 'image.png',
     style: 'my-first-style my-second-style',
