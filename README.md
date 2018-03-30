@@ -1,5 +1,5 @@
 # create-element
-🏗️ This function create DOM elements with styles, attributes, content and let you insert them in the DOM through multiple options.
+🏗️ This function creates DOM elements with styles, attributes, content and let you insert them in the DOM through multiple options.
 
 ## SYNTAX
 **``` createElement([option, insert]); ```**
@@ -26,7 +26,7 @@ let el = createElement({
 
 ## OPTIONS AND SETTINGS
 This function has two optionals parameters you can use with object type argument. 
-The first one is set in order to define element configuration wherheas the second one is used in order to configure the insertion in the DOM. Several **optional** properties can be set inside of them:
+The first one is set in order to define element configuration wherheas the second one is used in order to configure insertion in the DOM. Several **optional** properties can be set inside of them:
 
 ### Option object (1st argument)
 
