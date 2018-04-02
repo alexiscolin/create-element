@@ -2,6 +2,7 @@
   /*  CREATE-ELEMENT - create DOM element and return it  */
   /*  @param {object} [options] - list of element's configuration */
   /*  @param {object} [insert] - insert element in DOM from function */
+  /*  @return {htmlNODE} [elment] - return created element */
   /* */
   export default createElement = function(options = {}, insert = {}){
 
