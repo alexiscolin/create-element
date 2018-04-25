@@ -50,14 +50,18 @@
 
     // insertion
     if(target){
-      const insertParent = targetType === 'container' ? target : target.parentNode;
-      const insertPos = targetMethod === 'before' && targetType === 'sibling' ? target
-        : targetMethod === 'after' && targetType === 'sibling' ? target.nextSibling
-        : targetMethod === 'before' && targetType === 'container' ? target.firstChild
-        : targetMethod === 'after' && targetType === 'container' ? target.lastChild.nextSibling
-        : null;
+      if(target.innerHTML === ""){
+        target.innerHTML = el.outerHTML;
+      }else{
+        const insertParent = targetType === 'container' ? target : target.parentNode;
+        const insertPos = targetMethod === 'before' && targetType === 'sibling' ? target
+          : targetMethod === 'after' && targetType === 'sibling' ? target.nextSibling
+          : targetMethod === 'before' && targetType === 'container' ? target.firstChild
+          : targetMethod === 'after' && targetType === 'container' ? target.lastChild.nextSibling
+          : null;
 
-      insertParent.insertBefore(el, insertPos);
+        insertParent.insertBefore(el, insertPos);
+      }
     }
 
     return el;
