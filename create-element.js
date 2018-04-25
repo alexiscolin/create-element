@@ -43,7 +43,10 @@
     }
 
     //content
-    config.content && (el.innerHTML = config.content);
+    el.innerHTML = config.content && config.content instanceof HTMLElement ? config.content.outerHTML
+    : config.content ? config.content
+    : null;
+
 
     // insertion
     if(target){
