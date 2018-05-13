@@ -114,7 +114,7 @@ The first one is set in order to define element configuration wherheas the secon
     <td><b>target</b></td>
     <td>HTMLNode</td>
     <td></td>
-    <td>Target element that is the reference for adding the new element in the DOM.</td>
+    <td>Target element that is the reference for adding the new elements in the DOM.</td>
       <td valign="middle"><pre><code>'target' : targetEl</code></pre></td>
   </tr>
   <tr>
