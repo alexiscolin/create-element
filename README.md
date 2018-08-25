@@ -1,5 +1,5 @@
-# create-element
-🏗️ This function creates DOM elements with styles, attributes, content and let you insert them in the DOM through multiple options.
+# 🏗️ create-element
+This function creates DOM elements with styles, attributes, content and let you insert them in the DOM through multiple options.
 
 ## SYNTAX
 **``` createElement([option, insert]); ```**
